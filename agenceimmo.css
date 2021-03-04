@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*****barre de nav*****/
+body{
+    overflow-x: hidden;
+    background-color: #1E1D1D ;
+}
+section{
+    background-color: #1E1D1D;
+    height: 80px;
+    opacity: 0.7;
+
+}
+section:hover{
+    opacity: 1;
+}
+.bnav{
+    display: flex;
+    position: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    width: 80px;
+    margin-left: 20px;
+}
+.bnav ul {
+    display: flex;
+    list-style: none;
+}
+.bnav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #E9A664;
+    display: inline-flex;
+    margin-right : 30px;
+    text-decoration: none;
+}
+/*******liste*****/
+.offres{
+    height: 500px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: url(house-1477041_1280.jpg);
+    background-size: 100%;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1E1D1D;
+    background-color:transparent;
+    opacity: 0.8;
+}
+.form:hover{
+opacity: 1;
+}
+.radio{
+    color: #1E1D1D;
+    display: flex;
+    justify-content: space-around;
+}
+.selecte select #région{
+display: none;
+}
+.selecte{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+/*******présentation*****/
+
+.présentation h1{
+    margin-top: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 8rem;
+    text-align: center;
+    color: blanchedalmond;
+}
+.présentation .present  {
+    margin: 0;
+    padding: 0;
+    line-height: 2rem;
+    background-color: #E9A664;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 120px 50px 80px;
+    position: relative;
+    z-index: 12;
+    color: #1E1D1D;
+}
+.présentation .imgcontr img{
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+    margin-left: 42%;
+    margin-top: -5%;
+    border-radius: 10%;
+    }
+    /*******présentation*****/
+
+.meuilvent h1{
+    margin-top: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 8rem;
+    text-align: center;
+    color: blanchedalmond;
+}
+.meuilvent .presentmv {
+    margin: 0;
+    padding: 0;
+    line-height: 2rem;
+    background-color: #E9A664;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 120px 50px 80px;
+    position: relative;
+    z-index: 12;
+    color: #1E1D1D;
+}
+.meuilvent .imgmeuilv img{
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+    margin-left: 42%;
+    margin-top: -5%;
+    border-radius: 10%;
+    }
+    /************comment ça marche****/
+.comma{
+    margin-top: 1rem;
+}
+.marche h1{
+    margin-top: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 8rem;
+    text-align: center;
+    color: blanchedalmond;
+}
+div.imagecom img {
+    width: 80%;
+    background-color: blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    }
+div.commentim {
+    text-align: center;
+    padding: 10px 20px;
+    }
+.comma{
+display: flex;
+justify-content: space-around;
+    }
+.titre {
+    color: blanchedalmond;
+}
+  /************footer****/
+footer{
+    padding: 3rem;
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(59, 58, 58);
+}
+footer ul{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+footer ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20 px;
+}
