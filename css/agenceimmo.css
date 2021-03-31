@@ -41,29 +41,39 @@ section:hover{
 }
 /*******liste*****/
 .offres{
-    height: 500px;
+    background-image:url(photo/concept-1868728_1920.jpg) ;
+    height: 700px;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    background-image: url(house-1477041_1280.jpg);
     background-size: 100%;
 }
-.form{
+.bgimg1{
+    max-height: 100%;
+    z-index: -1;
+    position: relative;
+    opacity: 0.5;
+}
+.offres .form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    bottom: 10px;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 20%;
+    transform: translate(50%, 50%);
     color: #1E1D1D;
-    background-color:transparent;
-    opacity: 0.8;
+    background-color:rgba(235, 235, 235, 0.6);
+    opacity: 0.6;
+    border-radius: 05%;
 }
 .form:hover{
 opacity: 1;
 }
 .radio{
     color: #1E1D1D;
-    display: flex;
-    justify-content: space-around;
 }
 .selecte select #région{
 display: none;
@@ -190,7 +200,128 @@ footer ul{
     color: white;
 }
 footer ul li a{
+    text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20 px;
+}
+/*************pg3*****/
+.listbody {
+    width: 100%;
+    height: 100%;
+  }
+  
+.listbody {
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate3d(0, 0, 0);
+  }
+.listbody {
+    background: #f2f2f2;
+  }
+.imgkit{
+    width: 100%;
+    background-color: blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    }
+.list1 {
+    position: relative;
+    transform: rotate(-5deg) skew(04deg, 0deg);
+  }
+  
+.listkit {
+background: #1E1D1D;
+color: #575757;
+text-align: center;
+height: 10em;
+width: 15em;
+line-height: 5em;
+border-bottom: 1px solid #1E1D1D;
+position: relative;
+display: block;
+text-decoration: none;
+box-shadow: -2em 1.5em 0 #e1e1e1;
+transition: all 0.25s linear;
+}
+.listkit:hover {
+background: #E9A664;
+color: #fffcfb;
+transform: translate(0.9em, -0.9em);
+transition: all 0.25s linear;
+box-shadow: -2em 2em 0 #e1e1e1;
+}
+.listkit:hover:before, .listkit:hover:after {
+transition: all 0.2s linear;
+}
+.listkit:hover:before {
+background: #E9A664;
+width: 1em;
+top: 0.5em;
+left: -1em;
+}
+.listkit:hover:after {
+background: #E9A664;
+width: 1em;
+bottom: -2.5em;
+left: 10em;
+height: 4em;
+}
+.listkit:before, .listkit:after {
+content: "";
+position: absolute;
+transition: all 0.25s linear;
+width: 0.5em;
+}
+.listkit:after {
+height: 4em;
+background: #1E1D1D;
+bottom: -2.25em;
+left: 1.5em;
+transform: rotate(90deg) skew(0, 45deg);
+}
+.listkit:before {
+height: 2.5em;
+background: #1E1D1D;
+top: 0.25em;
+left: -0.5em;
+transform: skewY(-45deg);
+}
+.selecteur{
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgba(122, 105, 105, 0.644);
+    transform: translate3d(12%,20%,0);
+    border-radius: 10px;
+}
+#selector{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: #be9f80a1;
+    color: #1E1D1D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.selction{
+    background-color: transparent;
+}
+.bg ul{
+    margin-top: 20px;
+    max-height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    z-index: -3;
+}
+.bg img{
+    width: 100%;
 }

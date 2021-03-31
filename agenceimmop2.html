@@ -4,63 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>immo</title><link rel="stylesheet" href="agenceimmo.css">
+    <title>immo</title><link rel="stylesheet" href="./css/agenceimmo.css">
 </head>
  <!-----------barre de nav------>
  <section>
     <nav class="bnav">
         <nav>
-            <a href="#"><img id="logo" src="immo.gif" alt="immo logo" ></a>
+            <a href="#"><img id="logo" src="./photo/immo.gif" alt="immo logo" ></a>
         </nav>
         <nav>
             <ul>
-                <li><a href="#logo">Acceuil</a></li>
-                <li><a href="#commarche">Qui sommes-nous</a></li>
+                <li><a href="Agenceimmo.html">Acceuil</a></li>
+                <li><a href="Agenceimmo.html#commarche">Qui sommes-nous</a></li>
                 <li><a href="#cont">Contact</a></li>
             </ul>
         </nav>
     </nav>
 </section>
-    <!-----our team------>
-    <div class="marche">
-        <h1>Louer</h1>
-    <div class="comma">
-            <div class="commentim">
-                    <div class="imagecom">
-                        <img src="kitchen-1336160_1920.jpg" alt="recherche">
-                    </div>
-                        <h4 class="titre"><a href="https://www.3dvista.com/samples/live_pano_ny.html?fbclid=IwAR1N6zId5qxnjx8eI6tpsYYTeZEpgyL56lW-F2cNMjU5sab5FKz-iKp3Lxg">apportement 1</a>
-                        </h4>
-            </div>
-            <div class="commentim">
+<!------------selecteur -->
+<div class="bg">
+    <ul>
+        <li><img src="./photo/kitchen-1336160_1920.jpg" alt=""></li>
+        <li><img src="./photo/kitchen-1940174_1920.jpg" alt=""></li>
+        <li><img src="./photo/kitchen-2165756_1920.jpg" alt=""></li>
+    </ul>
+</div>
+<div class="selecteur">
+    <label for="prix">
+        <select name="prix" id="selector">
+            <option value="prix">le moin cher</option>
+            <option value="prix">le plus cher</option>
+        </select>
+    </label>
+    <label for="date">
+        <select name="date" id="selector">
+            <option value="date">le plus ancient</option>
+            <option value="date" selected>le plus recente</option>
+        </select>
+    </label>
+    <label for="type de bien">
+        <select name="type" id="selector">
+            <option class="selction" value="type" disabled selected>type de bien</option>
+            <option class="selction"  value="type">apportement</option>
+            <option class="selction"  value="type">maison</option>
+            <option class="selction"  value="type">villa<terrain/option>
+            <option class="selction"  value="type">bureau</option>
+            <option class="selction"  value="type">depot</option>
+        </select>
+    </label>
+</div>
+<!-----nos offres----->
+<div class="marche">
+    <h1>Louer</h1>
+<div class="comma">
+        <div class="commentim">
                 <div class="imagecom">
-                    <img src="kitchen-1940174_1920.jpg" alt="recherche">
+                    <img src="./photo/kitchen-1336160_1920.jpg" alt="recherche">
                 </div>
-                    <h4 class="titre"><a href="https://www.3dvista.com/samples/live_pano_ny.html?fbclid=IwAR1N6zId5qxnjx8eI6tpsYYTeZEpgyL56lW-F2cNMjU5sab5FKz-iKp3Lxg">apportement 2</a>
+                    <h4 class="titre"><a href="https://www.3dvista.com/samples/live_pano_ny.html?fbclid=IwAR1N6zId5qxnjx8eI6tpsYYTeZEpgyL56lW-F2cNMjU5sab5FKz-iKp3Lxg">apportement 1</a>
                     </h4>
+        </div>
+        <div class="commentim">
+            <div class="imagecom">
+                <img src="./photo/kitchen-1940174_1920.jpg" alt="recherche">
             </div>
-            <div class="commentim">
-                <div class="imagecom">
-                    <img src="kitchen-2165756_1920.jpg" alt="recherche">
-                </div>
-                    <h4 class="titre"><a href="https://www.3dvista.com/samples/live_pano_ny.html?fbclid=IwAR1N6zId5qxnjx8eI6tpsYYTeZEpgyL56lW-F2cNMjU5sab5FKz-iKp3Lxg">apportement 3</a>
-                    </h4>
+                <h4 class="titre"><a href="https://www.3dvista.com/samples/live_pano_ny.html?fbclid=IwAR1N6zId5qxnjx8eI6tpsYYTeZEpgyL56lW-F2cNMjU5sab5FKz-iKp3Lxg">apportement 2</a>
+                </h4>
+        </div>
+        <div class="commentim">
+            <div class="imagecom">
+                <img src="./photo/kitchen-2165756_1920.jpg" alt="recherche">
             </div>
+                <h4 class="titre"><a href="https://www.3dvista.com/samples/live_pano_ny.html?fbclid=IwAR1N6zId5qxnjx8eI6tpsYYTeZEpgyL56lW-F2cNMjU5sab5FKz-iKp3Lxg">apportement 3</a>
+                </h4>
         </div>
     </div>
+</div>
 <!------------footer----->
 <footer id="cont">
     <div>
         <ul>
-            <li><a href="#logo">Acceuil</a></li>
-            <li><a href="#commarche">Qui sommes-nous</a></li>
+            <li><a href="Agenceimmo.html">Acceuil</a></li>
+            <li><a href="Agenceimmo.html#commarche">Qui sommes-nous</a></li>
             <li><a href="#cont">Contact</a></li>
         </ul>
     </div>
     <div>
         <ul>
             <li><a href="#">acheter</a></li>
-            <li><a href="#">louer</a></li>
+            <li><a href="#marche">louer</a></li>
         </ul>
     </div>
     <div>
